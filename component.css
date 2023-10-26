@@ -1,0 +1,61 @@
+section {
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(253, 221, 212);
+}
+
+article {
+  margin: 2rem;
+}
+
+.container {
+  display: flex;
+  background-color: olive;
+  border-radius: 15px;
+  color: antiquewhite;
+  padding: 0 2rem 0 2rem;
+  gap: 2rem;
+}
+
+.box {
+  background-color: rgb(73, 73, 0);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+/* TASK 1 */
+
+.container-1 {
+  justify-content: space-between;
+}
+
+/* TASK 2 */
+
+.container-2 .box {
+  flex-grow: 1;
+}
+
+/* TASK 3 */
+.container-3 .box:nth-child(1) {
+  flex-grow: 2;
+}
+
+.container-3 .box {
+  flex-grow: 1;
+}
+
+/* TASL 4 */
+
+.container-4 .box:nth-child(1) {
+  flex-grow: 3;
+}
+
+.container-4 .box:nth-child(2) {
+  flex-grow: 2;
+}
+
+.container-4 .box {
+  flex-grow: 1;
+}
